@@ -1,0 +1,981 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": 1486924703000,
+    "url": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
+    "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
+    "status": 200,
+    "api": "1.5.4",
+    "count": 24
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "11km ESE of Pawnee, Oklahoma",
+        "time": 1486921045620,
+        "updated": 1486921828641,
+        "tz": -360,
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/us20008je3",
+        "detail": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us20008je3.geojson",
+        "felt": 2,
+        "cdi": 4.6,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 139,
+        "net": "us",
+        "code": "20008je3",
+        "ids": ",us20008je3,",
+        "sources": ",us,",
+        "types": ",dyfi,geoserve,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.058,
+        "rms": 0.29,
+        "gap": 72,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 3.0 - 11km ESE of Pawnee, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6854,
+          36.3028,
+          5
+        ]
+      },
+      "id": "us20008je3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "16km NW of Harper, Kansas",
+        "time": 1486917108730,
+        "updated": 1486922706461,
+        "tz": -360,
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/us20008jdb",
+        "detail": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us20008jdb.geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "us",
+        "code": "20008jdb",
+        "ids": ",us20008jdb,",
+        "sources": ",us,",
+        "types": ",dyfi,geoserve,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.16,
+        "rms": 0.2,
+        "gap": 124,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 3.1 - 16km NW of Harper, Kansas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.1601,
+          37.3931,
+          8.5
+        ]
+      },
+      "id": "us20008jdb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "101km NW of Vallenar, Chile",
+        "time": 1486916470070,
+        "updated": 1486922111040,
+        "tz": -300,
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/us20008jd5",
+        "detail": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us20008jd5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "20008jd5",
+        "ids": ",us20008jd5,",
+        "sources": ",us,",
+        "types": ",geoserve,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.456,
+        "rms": 0.65,
+        "gap": 134,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.9 - 101km NW of Vallenar, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4081,
+          -27.8558,
+          7.43
+        ]
+      },
+      "id": "us20008jd5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "23km WNW of Behram, Turkey",
+        "time": 1486907295660,
+        "updated": 1486917684802,
+        "tz": 120,
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/us20008jcc",
+        "detail": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us20008jcc.geojson",
+        "felt": 9,
+        "cdi": 4.5,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 420,
+        "net": "us",
+        "code": "20008jcc",
+        "ids": ",us20008jcc,",
+        "sources": ",us,",
+        "types": ",dyfi,geoserve,moment-tensor,origin,phase-data,",
+        "nst": null,
+        "dmin": 1.294,
+        "rms": 0.52,
+        "gap": 41,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 5.2 - 23km WNW of Behram, Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0922,
+          39.6001,
+          3.28
+        ]
+      },
+      "id": "us20008jcc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "71km NNE of Miyako, Japan",
+        "time": 1486906616120,
+        "updated": 1486911725711,
+        "tz": 540,
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/us20008jc6",
+        "detail": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us20008jc6.geojson",
+        "felt": 8,
+        "cdi": 3.9,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 388,
+        "net": "us",
+        "code": "20008jc6",
+        "ids": ",us20008jc6,",
+        "sources": ",us,",
+        "types": ",dyfi,geoserve,origin,phase-data,",
+        "nst": null,
+        "dmin": 1.092,
+        "rms": 0.66,
+        "gap": 51,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 71km NNE of Miyako, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.2911,
+          40.2243,
+          53.91
+        ]
+      },
+      "id": "us20008jc6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "51km WSW of Madang, Papua New Guinea",
+        "time": 1486900679660,
+        "updated": 1486901957925,
+        "tz": 600,
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/us20008jbs",
+        "detail": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us20008jbs.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 400,
+        "net": "us",
+        "code": "20008jbs",
+        "ids": ",us20008jbs,",
+        "sources": ",us,",
+        "types": ",dyfi,geoserve,origin,phase-data,",
+        "nst": null,
+        "dmin": 4.299,
+        "rms": 0.85,
+        "gap": 76,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 51km WSW of Madang, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3919,
+          -5.4535,
+          83.3
+        ]
+      },
+      "id": "us20008jbs"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "26km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1486896393300,
+        "updated": 1486899955832,
+        "tz": -240,
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/pr17043003",
+        "detail": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr17043003.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "REVIEWED",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "pr",
+        "code": "17043003",
+        "ids": ",pr17043003,",
+        "sources": ",pr,",
+        "types": ",geoserve,origin,",
+        "nst": 4,
+        "dmin": 0.42580144,
+        "rms": 0.18,
+        "gap": 331.2,
+        "magType": "Md",
+        "type": "earthquake",
+        "title": "M 3.1 - 26km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.9365,
+          18.5802,
+          42
+        ]
+      },
+      "id": "pr17043003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "179km WNW of Abepura, Indonesia",
+        "time": 1486891953220,
+        "updated": 1486892871040,
+        "tz": 540,
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/us20008jbf",
+        "detail": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us20008jbf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 400,
+        "net": "us",
+        "code": "20008jbf",
+        "ids": ",us20008jbf,",
+        "sources": ",us,",
+        "types": ",geoserve,origin,phase-data,",
+        "nst": null,
+        "dmin": 6.793,
+        "rms": 0.98,
+        "gap": 67,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 179km WNW of Abepura, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0163,
+          -2.2482,
+          56.18
+        ]
+      },
+      "id": "us20008jbf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "75km NNW of Riohacha, Colombia",
+        "time": 1486891948480,
+        "updated": 1486893159040,
+        "tz": -300,
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/us20008jbe",
+        "detail": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us20008jbe.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 432,
+        "net": "us",
+        "code": "20008jbe",
+        "ids": ",us20008jbe,",
+        "sources": ",us,",
+        "types": ",geoserve,origin,phase-data,",
+        "nst": null,
+        "dmin": 1.171,
+        "rms": 1.62,
+        "gap": 30,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.3 - 75km NNW of Riohacha, Colombia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0687,
+          12.2116,
+          24.59
+        ]
+      },
+      "id": "us20008jbe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "19km NNE of Taron, Papua New Guinea",
+        "time": 1486891012940,
+        "updated": 1486893835040,
+        "tz": 600,
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/us20008jbd",
+        "detail": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us20008jbd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "20008jbd",
+        "ids": ",us20008jbd,",
+        "sources": ",us,",
+        "types": ",geoserve,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.946,
+        "rms": 0.54,
+        "gap": 120,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 19km NNE of Taron, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.1055,
+          -4.3096,
+          11.63
+        ]
+      },
+      "id": "us20008jbd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "136km S of Tambakrejo, Indonesia",
+        "time": 1486881760980,
+        "updated": 1486882990791,
+        "tz": 420,
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/us20008jb3",
+        "detail": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us20008jb3.geojson",
+        "felt": 3,
+        "cdi": 3.3,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 370,
+        "net": "us",
+        "code": "20008jb3",
+        "ids": ",us20008jb3,",
+        "sources": ",us,",
+        "types": ",dyfi,geoserve,origin,phase-data,",
+        "nst": null,
+        "dmin": 2.173,
+        "rms": 0.83,
+        "gap": 101,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 136km S of Tambakrejo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.994,
+          -9.5378,
+          24.73
+        ]
+      },
+      "id": "us20008jb3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "7km ENE of Ustupo, Panama",
+        "time": 1486881660010,
+        "updated": 1486885239040,
+        "tz": -300,
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/us20008jb2",
+        "detail": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us20008jb2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "20008jb2",
+        "ids": ",us20008jb2,",
+        "sources": ",us,",
+        "types": ",geoserve,origin,phase-data,",
+        "nst": null,
+        "dmin": 1.947,
+        "rms": 0.6,
+        "gap": 78,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 7km ENE of Ustupo, Panama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.8655,
+          9.1474,
+          50.47
+        ]
+      },
+      "id": "us20008jb2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "68km SSW of Tawun, Indonesia",
+        "time": 1486873512610,
+        "updated": 1486906902945,
+        "tz": 480,
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/us20008j9y",
+        "detail": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us20008j9y.geojson",
+        "felt": 100,
+        "cdi": 4.5,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 371,
+        "net": "us",
+        "code": "20008j9y",
+        "ids": ",us20008j9y,",
+        "sources": ",us,",
+        "types": ",dyfi,geoserve,origin,phase-data,",
+        "nst": null,
+        "dmin": 1.73,
+        "rms": 1.18,
+        "gap": 62,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 68km SSW of Tawun, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.6991,
+          -9.2868,
+          72.85
+        ]
+      },
+      "id": "us20008j9y"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "18km W of Nongstoin, India",
+        "time": 1486872333470,
+        "updated": 1486910654771,
+        "tz": 330,
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/us20008j9t",
+        "detail": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us20008j9t.geojson",
+        "felt": 9,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 315,
+        "net": "us",
+        "code": "20008j9t",
+        "ids": ",us20008j9t,",
+        "sources": ",us,",
+        "types": ",dyfi,geoserve,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.696,
+        "rms": 0.91,
+        "gap": 157,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 18km W of Nongstoin, India"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.0857,
+          25.5397,
+          33.19
+        ]
+      },
+      "id": "us20008j9t"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "40km NNE of Visokoi Island, South Georgia and the South Sandwich Islands",
+        "time": 1486872090750,
+        "updated": 1486873238040,
+        "tz": -120,
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/us20008j9s",
+        "detail": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us20008j9s.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "20008j9s",
+        "ids": ",us20008j9s,",
+        "sources": ",us,",
+        "types": ",geoserve,origin,phase-data,",
+        "nst": null,
+        "dmin": 16.479,
+        "rms": 0.85,
+        "gap": 68,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 40km NNE of Visokoi Island, South Georgia and the South Sandwich Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -27.0466,
+          -56.3495,
+          38.65
+        ]
+      },
+      "id": "us20008j9s"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "198km SW of Port Hardy, Canada",
+        "time": 1486871261510,
+        "updated": 1486921000578,
+        "tz": -540,
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/us20008j9n",
+        "detail": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us20008j9n.geojson",
+        "felt": 5,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 356,
+        "net": "us",
+        "code": "20008j9n",
+        "ids": ",us20008j9n,",
+        "sources": ",us,",
+        "types": ",dyfi,geoserve,origin,phase-data,",
+        "nst": null,
+        "dmin": 1.469,
+        "rms": 1.39,
+        "gap": 163,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 198km SW of Port Hardy, Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.2756,
+          49.3708,
+          10
+        ]
+      },
+      "id": "us20008j9n"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "86km SE of Old Iliamna, Alaska",
+        "time": 1486863324611,
+        "updated": 1486883198166,
+        "tz": -540,
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/ak15255978",
+        "detail": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak15255978.geojson",
+        "felt": 3,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 247,
+        "net": "ak",
+        "code": "15255978",
+        "ids": ",ak15255978,us20008j9d,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,geoserve,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.5,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.0 - 86km SE of Old Iliamna, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.6828,
+          59.295,
+          122.4
+        ]
+      },
+      "id": "ak15255978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "97km W of Kuripan, Indonesia",
+        "time": 1486858839600,
+        "updated": 1486859936040,
+        "tz": 420,
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/us20008j92",
+        "detail": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us20008j92.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "20008j92",
+        "ids": ",us20008j92,",
+        "sources": ",us,",
+        "types": ",geoserve,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.52,
+        "rms": 0.69,
+        "gap": 93,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 97km W of Kuripan, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.9002,
+          -4.8813,
+          61.57
+        ]
+      },
+      "id": "us20008j92"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "115km SSW of Kotaagung, Indonesia",
+        "time": 1486858482190,
+        "updated": 1486865108040,
+        "tz": 420,
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/us20008j91",
+        "detail": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us20008j91.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "20008j91",
+        "ids": ",us20008j91,",
+        "sources": ",us,",
+        "types": ",geoserve,origin,phase-data,",
+        "nst": null,
+        "dmin": 2.51,
+        "rms": 1,
+        "gap": 150,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 115km SSW of Kotaagung, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.3074,
+          -6.4938,
+          38.6
+        ]
+      },
+      "id": "us20008j91"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "121km SSE of Kavieng, Papua New Guinea",
+        "time": 1486853599770,
+        "updated": 1486854638040,
+        "tz": 600,
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/us20008j8m",
+        "detail": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us20008j8m.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 385,
+        "net": "us",
+        "code": "20008j8m",
+        "ids": ",us20008j8m,",
+        "sources": ",us,",
+        "types": ",geoserve,origin,phase-data,",
+        "nst": null,
+        "dmin": 1.129,
+        "rms": 0.68,
+        "gap": 75,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 121km SSE of Kavieng, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2023,
+          -3.5901,
+          10
+        ]
+      },
+      "id": "us20008j8m"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "4km W of Cushing, Oklahoma",
+        "time": 1486850435070,
+        "updated": 1486877310741,
+        "tz": -360,
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/us20008j8b",
+        "detail": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us20008j8b.geojson",
+        "felt": 5,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "us",
+        "code": "20008j8b",
+        "ids": ",us20008j8b,",
+        "sources": ",us,",
+        "types": ",dyfi,geoserve,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.009,
+        "rms": 0.37,
+        "gap": 19,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 4km W of Cushing, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8129,
+          35.9883,
+          5.32
+        ]
+      },
+      "id": "us20008j8b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "20km NE of Bayabas, Philippines",
+        "time": 1486845615350,
+        "updated": 1486853536040,
+        "tz": 480,
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/us20008j80",
+        "detail": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us20008j80.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "20008j80",
+        "ids": ",us20008j80,",
+        "sources": ",us,",
+        "types": ",geoserve,origin,phase-data,",
+        "nst": null,
+        "dmin": 2.169,
+        "rms": 0.67,
+        "gap": 96,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 20km NE of Bayabas, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.4368,
+          9.0789,
+          47.22
+        ]
+      },
+      "id": "us20008j80"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "51km N of Amberley, New Zealand",
+        "time": 1486844334420,
+        "updated": 1486891807170,
+        "tz": 720,
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/us20008j7v",
+        "detail": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us20008j7v.geojson",
+        "felt": 3,
+        "cdi": 6.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 371,
+        "net": "us",
+        "code": "20008j7v",
+        "ids": ",us20008j7v,",
+        "sources": ",us,",
+        "types": ",dyfi,geoserve,origin,phase-data,",
+        "nst": null,
+        "dmin": 0.334,
+        "rms": 0.84,
+        "gap": 79,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 51km N of Amberley, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.758,
+          -42.7019,
+          18.96
+        ]
+      },
+      "id": "us20008j7v"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "117km NE of Arctic Village, Alaska",
+        "time": 1486842190204,
+        "updated": 1486861557040,
+        "tz": -540,
+        "url": "http://earthquake.usgs.gov/earthquakes/eventpage/ak15255537",
+        "detail": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak15255537.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.6,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "ak",
+        "code": "15255537",
+        "ids": ",ak15255537,us20008j7p,",
+        "sources": ",ak,us,",
+        "types": ",geoserve,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.62,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 117km NE of Arctic Village, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -143.3323,
+          68.8043,
+          11.3
+        ]
+      },
+      "id": "ak15255537"
+    }
+  ],
+  "bbox": [
+    -153.6828,
+    -56.3495,
+    3.28,
+    172.758,
+    68.8043,
+    122.4
+  ]
+}
