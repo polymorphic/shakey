@@ -7,7 +7,7 @@ import akka.http.scaladsl.model.{HttpRequest, HttpResponse}
 import akka.pattern.pipe
 import akka.stream.Materializer
 import akka.util.ByteString
-import com.microworkflow.rest.SkillHandler.ProcessRequest
+import com.microworkflow.rest.SkillHandler.{ProcessRequest, expandAbbreviation}
 import com.microworkflow.{EchoIQ, IntentRequest, Usgs}
 import io.circe.Json
 
@@ -29,6 +29,39 @@ object SkillHandler {
   sealed trait SkillHandlerMessages
 
   case class ProcessRequest(json: Json) extends SkillHandlerMessages
+
+  /*
+  Expand N, SE, SSE, etc. into their compass point names (https://en.wikipedia.org/wiki/Points_of_the_compass#Compass_point_names)
+   */
+  def expandAbbreviation(place: String): String = {
+    val abbreviationTable = Map(
+      "N" → "North"
+      , "NNE" → "North-northeast"
+      , "NE" → "Northeast"
+      , "ENE" → "East-northeast"
+      , "E" → "East"
+      , "ESE" → "East-southeast"
+      , "SE" → "Southeast"
+      , "SSE" → "South-southeast"
+      , "S" → "South"
+      , "SSW" → "South-southwest"
+      , "SW" → "Southwest"
+      , "WSW" → "West-southwest"
+      , "W" → "West"
+      , "WNW" → "West-northwest"
+      , "NW" → "Northwest"
+      , "NNW" → "North-nothwest"
+    )
+    val patternRe = "([0-9]+km) ([NSEW]+) ([a-zA-Z, -]+)".r
+    place match {
+      case patternRe(distance, cardinalPoint, location) ⇒
+        abbreviationTable.get(cardinalPoint.trim) match {
+          case Some(spelling) ⇒ s"$distance $spelling $location"
+          case None ⇒ place
+        }
+      case _ ⇒ place
+    }
+  }
 
   def props(m: Materializer, http: HttpExt): Props = Props(classOf[SkillHandler], m, http)
 }
@@ -73,7 +106,7 @@ class SkillHandler(implicit val m: Materializer, http: HttpExt) extends Actor wi
         map(bs ⇒ parse(bs.utf8String).getOrElse(Json.Null)).
         flatMap(usgsJson ⇒ decodeUsgsResponse(usgsJson)).
         flatMap(response ⇒ buildEchoServiceResponse(response))
-       responseF.pipeTo(respondTo)
+      responseF.pipeTo(respondTo)
       responseF.onComplete(_ ⇒ context.stop(self))
     case koResponse: HttpResponse if koResponse.status.isFailure() ⇒
       koResponse.entity.discardBytes(m)
@@ -101,7 +134,7 @@ class SkillHandler(implicit val m: Materializer, http: HttpExt) extends Actor wi
     } else {
       earthquakes
     }
-    val quakeList = quakes.map( ed ⇒ s"Magnitude ${ed.magnitude} at ${ed.place}")
+    val quakeList = quakes.map(ed ⇒ s"Magnitude ${ed.magnitude} at ${expandAbbreviation(ed.place)}")
     sb.append(quakeList.mkString("", "; ", "."))
     sb.result()
   }
